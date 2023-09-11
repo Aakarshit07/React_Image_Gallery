@@ -1,0 +1,17 @@
+.gallery-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-wrapper img {
+    width: 18rem;
+    border-radius: 10px;
+    
+}
+.gallery-wrapper img:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
