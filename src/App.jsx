@@ -1,11 +1,11 @@
 import './App.css'
-import ImageGallery from './components/Image-gallery.jsx/Imagegallery'
+import CustomRoute from './routes/CustomRoute'
 
 function App() {
 
   return (
     <>
-      <ImageGallery />
+      <CustomRoute />
     </>
   )
 }

@@ -25,7 +25,9 @@ function ImageGallery() {
     return (
         <div className="gallery-wrapper">
             {(isloading) ? "Loading.." : 
-                imageList.map( (e, i) => <Gallery key={i} imageUrl={e.url} />)
+            // imageList?.map((e, i) => <Gallery key={i} imageUrl={e.url} id={e.id} />)
+
+                imageList?.map( (e, i) => <Gallery key={i} imageUrl={e.url} id={e.id} />)
             }
         </div>
     )
